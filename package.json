@@ -1,0 +1,12 @@
+{
+  "name": "com.geuneda.aptabase",
+  "displayName": "Geuneda Aptabase SDK",
+  "version": "0.2.4",
+  "unity": "2018.4",
+  "description": "앱 분석 도구. 프라이버시 우선. 간편함. 실시간.",
+  "keywords": ["analytics"],
+  "category": "analytics",
+  "author": "geuneda",
+  "dependencies": {
+  }
+}
