@@ -1,31 +1,31 @@
 ## 0.2.4
 
-- Fixed memory leak with event errors
-- Fixed event send error handling
-- Reduced logging on errors
+- 이벤트 오류 관련 메모리 누수를 수정
+- 이벤트 전송 오류 처리를 수정
+- 오류 시 로깅을 줄임
 
 ## 0.2.3
 
-- Use new session id format
+- 새로운 세션 ID 형식을 사용
 
 ## 0.2.2
 
-- Fixed issue with settings importer
+- 설정 임포터 관련 문제를 수정
 
 ## 0.2.1
 
-- WebGL build handling
-- WebRequest helper added
+- WebGL 빌드 처리를 추가
+- WebRequest 헬퍼를 추가
 
 ## 0.2.0
 
-- Events are now sent in batches to reduce network overhead
-- Automatic flush of events when app loses focus
-- While offline, events will be enqueue and sent when the app is back online
-- Added an option to set the appVersion during initialization
-- Replaced MiniJSON for TinyJSON for better serialization
-- Fixed issue with OS version
+- 네트워크 오버헤드를 줄이기 위해 이벤트를 배치로 전송하도록 변경
+- 앱이 포커스를 잃을 때 자동으로 이벤트를 플러시
+- 오프라인 상태에서는 이벤트를 큐에 보관하고 앱이 다시 온라인 상태가 되면 전송
+- 초기화 시 appVersion을 설정할 수 있는 옵션을 추가
+- 더 나은 직렬화를 위해 MiniJSON을 TinyJSON으로 교체
+- OS 버전 관련 문제를 수정
 
 ## 0.0.1
 
-- Initial release
+- 최초 릴리스
